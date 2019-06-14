@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'BOTW';
+	src:
+		url('the_wild_breath_of_zelda-webfont.woff2') format('woff2'),
+		url('the_wild_breath_of_zelda-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+html, body {
+	background-color: #ecf0f1;
+}
+
+h1 {
+	font-family: 'BOTW';
+	text-align: center;
+}
+
+.photo, .photo img {
+	border-radius: 0.5em;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.photo {
+	background-color: #fff;
+	padding: 0.5em;
+	margin: 1em;
+	text-align: center;
+
+	/* https://www.cssmatic.com/box-shadow */
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
